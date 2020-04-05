@@ -8,22 +8,21 @@ namespace Task_3.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult HomePage()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult GroceryList()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
-
-        public ActionResult Contact()
+        public ActionResult Product()
         {
-            ViewBag.Message = "Your contact page.";
-
+            return View();
+        }
+        public ActionResult AddProduct()
+        {
             return View();
         }
     }
